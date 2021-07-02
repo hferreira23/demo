@@ -1,0 +1,41 @@
+---
+htop_dir: "$HOME/.config/htop/"
+
+color_scheme: "5"
+
+list:
+  - 1
+  - 2
+
+    #- name: joana
+    #idade: 25
+    #- name: rita
+    #idade: 30
+
+pessoas:
+  - name: joana
+    idade: 25
+  - name: rita
+    idade: 30
+
+dirs:
+  - path: /tmp/qwerty
+    owner: root
+    group: root
+    mode: '0600'
+  - path: /tmp/qwerty2
+    owner: 2xtreme
+    group: 2xtreme
+    mode: '0600'
+
+dirs2:
+  qwerty:
+    path: /tmp/qwerty
+    owner: root
+    group: root
+    mode: '0600'
+  qwerty2:
+    path: /tmp/qwerty2
+    owner: 2xtreme
+    group: 2xtreme
+    mode: '0600'

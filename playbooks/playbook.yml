@@ -1,0 +1,15 @@
+---
+- name: test playbook
+  hosts: "{{ targets }}"
+  become: false
+  gather_facts: false
+  vars:
+    teste: "adfgndfgb"
+    role:
+      - "first"
+
+  tasks:
+    - name: Import first role
+      include_role:
+        name: "{{ item }}"
+      loop: "{{ role }}"

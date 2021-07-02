@@ -1,0 +1,7 @@
+plex-server
+
+[servers:children]
+webservers
+
+[webservers]
+plex-server

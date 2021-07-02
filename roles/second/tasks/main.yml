@@ -1,0 +1,10 @@
+---
+# tasks file for first
+- name: Debug teste var
+  debug:
+    msg: "{{ teste }}"
+
+- name: Install packages
+  package:
+    name: vim
+    state: latest
